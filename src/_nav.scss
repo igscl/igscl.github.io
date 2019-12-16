@@ -2,10 +2,12 @@
     font-family: 'Roboto', sans-serif;
     list-style-type: none;
     font-weight: bold;
-    line-height: 36px;
+    line-height: 34px;
     font-size: 40px;
     text-transform: uppercase;
     display: inline-block;
+    color: #cccccc
+    // re-check why added the display line
 }
 a {
     color: inherit;
@@ -13,7 +15,8 @@ a {
     outline: 0;
 }
 a:hover {
-    background-color: yellow;
+    // background-color: red;
+    color: black;
   }
 
 @media (max-width: 1024px){
