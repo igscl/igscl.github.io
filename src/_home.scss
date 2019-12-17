@@ -18,7 +18,7 @@
     }
     a:hover {
         // background-color: red;
-        color: white;
+        color: #DCDCDC;
         // test
       }
     &.nav-container{
@@ -30,5 +30,9 @@
         // background-color: yellow;
 
     }
+    }
+    #home-section {
+        width: 90%;
+        margin: 25px auto;
     }
 

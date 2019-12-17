@@ -28,23 +28,6 @@ a:hover {
     background-size: 100%;
 }
 
-#index-page {
-    &.nav-list{
-        color: white;
-
-    }
-    a:hover {
-        // background-color: red;
-        color: white;
-        // test
-      }
-    &.nav-container{
-        background-image: url('wave3.jpg');
-        // background-color: yellow;
-
-    }
-    }
-
 
 @media (min-width: 1024px){
     .nav-container {
