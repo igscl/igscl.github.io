@@ -24,15 +24,33 @@ a:hover {
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
+    // background-image: url('wave.jpg');
+    background-size: 100%;
 }
-body {
-    border: solid 2px green;
-}
+
+#index-page {
+    &.nav-list{
+        color: white;
+
+    }
+    a:hover {
+        // background-color: red;
+        color: white;
+        // test
+      }
+    &.nav-container{
+        background-image: url('wave3.jpg');
+        // background-color: yellow;
+
+    }
+    }
+
+
 @media (min-width: 1024px){
     .nav-container {
         flex-direction: row;
         position: relative;
-    
+        height: 250px;
     }
     .nav-list {
         order: 1;
@@ -47,8 +65,4 @@ body {
         text-align: center;
         // position: absolute;
         // left: 50%;
-    }
-    body {
-        border: solid 2px red;
-    }
-}
+    }}

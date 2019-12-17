@@ -11,8 +11,24 @@
     // box-sizing: inherit;
 }
 
-.lighter {
-    font-family: 'Roboto', sans-serif;
+#index-page {
+    &.nav-list{
+        color: white;
 
-}
+    }
+    a:hover {
+        // background-color: red;
+        color: white;
+        // test
+      }
+    &.nav-container{
+        background-image: url('wave3.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        // background-color: yellow;
+
+    }
+    }
 
