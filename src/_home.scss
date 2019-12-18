@@ -27,8 +27,24 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        height: 950px;
         // background-color: yellow;
 
     }
     }
 
+    #content-section-home {
+        width: 90%;
+        margin: 25px auto;
+        // flex: 1 0 auto;
+        // min-height: 100%;
+        // added this to occupy the whole screen
+        // height: 50px;
+        display: flex;
+        min-height: 20vh;
+        flex-direction: column;
+        flex: 1;
+        background-color: black;
+        color:white;
+        
+    }

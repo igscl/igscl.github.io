@@ -20,6 +20,18 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 950px;
+}
+
+#content-section-home {
+  width: 90%;
+  margin: 25px auto;
+  display: flex;
+  min-height: 20vh;
+  flex-direction: column;
+  flex: 1;
+  background-color: black;
+  color: white;
 }
 
 .nav-list {
@@ -47,7 +59,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  justify-content: center;
+  justify-content: flex-start;
   background-size: 100%;
 }
 
@@ -103,6 +115,15 @@ a:hover {
 
 body {
   background-color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.body-home {
+  background-color: black;
+  color: white;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   box-sizing: border-box;
