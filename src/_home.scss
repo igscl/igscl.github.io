@@ -27,7 +27,7 @@
     }
     a:hover {
         // background-color: red;
-        color: #DCDCDC;
+        color: white;
         // test
       }
     &.nav-container{
@@ -57,6 +57,21 @@
         color:white;
         
     }
+.image {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 176px;
+    height: 230px;
+    margin:-60px 0 0 -60px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
     // The following shakes the text at the bottom of the index page
   #shake:hover {
     animation: shakeanimation;
