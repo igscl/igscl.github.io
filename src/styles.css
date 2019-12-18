@@ -77,13 +77,27 @@
 }
 
 .blog-post img {
-  width: 320px;
+  width: 300px;
 }
 
 .blog-post div {
   width: 300px;
   margin: 0;
   text-align: center;
+}
+
+.scl-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  color: #66ccff;
+  max-width: 600px;
+}
+
+#scl-list-inside {
+  margin: 15px;
 }
 
 .nav-list {

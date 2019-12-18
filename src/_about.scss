@@ -1,0 +1,14 @@
+.scl-list {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    // line-height: 34px;
+    // font-size: 40px;
+    color: #66ccff;
+    max-width: 600px;
+}
+#scl-list-inside {
+    margin: 15px;
+}
