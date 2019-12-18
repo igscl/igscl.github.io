@@ -1,16 +1,26 @@
 #blog {
     display:flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: flex-start;
     // margin: 10px;
+    // width: 80vw;
 }
 .blog-post {
     margin: 10px;
-}
-@media (min-width: 1024px){
-    #blog {
-        flex-direction: row;
-    }
+    width: 320px;
+    border: 7px solid;
+    // flex-direction: row;
+    // position: relative;
 
+}
+.blog-post img{
+    // object-fit: cover;
+    width: 320px;
+}
+.blog-post div{
+    // object-fit: cover;
+    width: 300px;
+    margin: 0;
+    text-align: center;
 }
