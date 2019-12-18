@@ -22,11 +22,6 @@
   background-size: cover;
 }
 
-#home-section {
-  width: 90%;
-  margin: 25px auto;
-}
-
 .nav-list {
   font-family: "Roboto", sans-serif;
   list-style-type: none;
@@ -56,6 +51,26 @@ a:hover {
   background-size: 100%;
 }
 
+#shake:hover {
+  animation: shakeanimation;
+  animation-duration: 1s;
+  transform: translate3d(0, 0, 0);
+}
+
+@keyframes shakeanimation {
+  15%, 85% {
+    transform: translate3d(-2px, 0, 0);
+  }
+  25%, 75% {
+    transform: translate3d(4px, 0, 0);
+  }
+  30%, 50%, 70% {
+    transform: translate3d(-8px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(8px, 0, 0);
+  }
+}
 @media (min-width: 1024px) {
   .nav-container {
     flex-direction: row;
@@ -92,6 +107,15 @@ body {
   font-size: 20px;
   box-sizing: border-box;
   margin: 0;
+}
+
+#content-section {
+  width: 90%;
+  margin: 25px auto;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  flex: 1;
 }
 
 /*# sourceMappingURL=styles.css.map */
