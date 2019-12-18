@@ -1,0 +1,16 @@
+#blog {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    // margin: 10px;
+}
+.blog-post {
+    margin: 10px;
+}
+@media (min-width: 1024px){
+    #blog {
+        flex-direction: row;
+    }
+
+}

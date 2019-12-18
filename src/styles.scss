@@ -13,15 +13,9 @@ body {
     box-sizing: border-box;
     margin: 0;
 }
-.body-home {
-    background-color: black;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    box-sizing: border-box;
-    margin: 0;
-}
-#content-section {
+// the content section is for the content of the page.
+// pushes text so the footer goes to the bottom
+.content-section {
     width: 90%;
     margin: 25px auto;
     // flex: 1 0 auto;
