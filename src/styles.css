@@ -75,6 +75,17 @@ a:hover {
     text-align: center;
   }
 }
+.footer-class {
+  background-color: black;
+  color: #fff;
+  padding-top: 24px;
+  text-align: center;
+  padding: 21px 0;
+  padding-bottom: 48px;
+  margin: 0;
+  margin-bottom: 0;
+}
+
 body {
   background-color: white;
   font-family: "Roboto", sans-serif;
