@@ -136,7 +136,7 @@
   max-width: 500px;
 }
 
-.scl-list {
+.socialmedia-list-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -148,7 +148,7 @@
   padding-left: 0;
 }
 
-#scl-list-inside {
+#socialmedia-list-inside {
   margin: 15px;
 }
 

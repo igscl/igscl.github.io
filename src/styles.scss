@@ -18,10 +18,6 @@ body {
 .content-section {
     width: 90%;
     margin: 25px auto;
-    // flex: 1 0 auto;
-    // min-height: 100%;
-    // added this to occupy the whole screen
-    // height: 50px;
     display: flex;
     min-height: 100vh;
     flex-direction: column;

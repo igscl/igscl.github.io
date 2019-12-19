@@ -1,11 +1,9 @@
-.scl-list {
+.socialmedia-list-container {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     list-style-type: none;
-    // line-height: 34px;
-    // font-size: 40px;
     color: #66ccff;
     max-width: 600px;
     margin-left: -20px;
@@ -13,7 +11,7 @@
 
 }
 
-#scl-list-inside {
+#socialmedia-list-inside {
     margin: 15px;
 }
 #about-links a{
