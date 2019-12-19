@@ -21,7 +21,7 @@
   color: white;
 }
 #index-page a:hover {
-  color: white;
+  color: red;
 }
 #index-page.nav-container {
   background-image: url("wave3.jpg");
