@@ -1,34 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./src/styles.css" integrity="sha384-pi4CpNB3SvxY3yq97UdD3Udfv4DoDFE9/eOU9TaF0RBZO/0noo4t9sarNuAi1ySw">
-    <title>Hi there...</title>
+    <link rel="stylesheet" href="./src/styles.css">
+    <title>Ignacio Giadach</title>
 </head>
-
-<body class="body-home">
-    <div></div>
-    <div class="nav-container" id="index-page">
-        <h1 id="title"><img src="./src/itsig-transparent.png" alt=""></h1>
+<body>
+    <main>
+        <img src="./src/itsig-transparent.png" alt="Ignacio Giadach">
         <nav>
-            <ul class="nav-list" id="index-page">
-                <li><a href="#">HOME</a></li>
-                <li><a href="./src/contact.html">CONTACT</a></li>
-            </ul>
+            <button type="button" id="contact">email</button>
+            <a href="https://github.com/igscl">github</a>
         </nav>
-    </div>
-    <!-- component 1 manipulation with css start -->
-    <img class="image" src="./src/spinning_head.png" alt="spinning head" width="226" height="280">
-    <!-- component 1 manipulation with css end -->
-
-    <footer class="footer-class">
-        <!-- component 1 text manipulation with css start -->
-        <div id="shake">© 2019 Me</div id="shake">
-        <!-- component 1 text manipulation with css end -->
-    </footer>
+    </main>
+    <script>
+        (() => {
+            const a = [0x9f, 0x0c, 0x0f, 0xdc, 0xc2, 0x4a, 0xcd, 0x0b];
+            const b = [0xf2, 0x6e, 0xd4, 0x27, 0xf7, 0xd2, 0x87, 0xb5];
+            const c = [0x68, 0x9d, 0xd2, 0x8f, 0xb6, 0x26, 0x99, 0x5c, 0x8f];
+            const reveal = (e) => {
+                e.preventDefault();
+                const buf = a.concat(b, c);
+                let s = buf[0];
+                let out = '';
+                for (let i = 1; i < buf.length; i++) {
+                    const x = (buf[i] - s) & 0xff;
+                    out += String.fromCharCode(x);
+                    s = (s * 31 + x) & 0xff;
+                }
+                location.href = out;
+            };
+            document.getElementById('contact').addEventListener('pointerup', reveal);
+        })();
+    </script>
 </body>
-
 </html>
